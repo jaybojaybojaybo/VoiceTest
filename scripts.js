@@ -40,3 +40,15 @@ recognition.onresult = function(event) {
     bg.style.backgroundColor = color;
     console.log('Confidence: ' + event.results[0][0].confidence);
   }
+
+  recognition.onspeechend = function() {
+      recognition.stop();
+  }
+
+  recognition.onnomatch = function(event) {
+    diagnostic.textContent = 'I didnt recognise that color.';
+  }
+
+  recognition.onerror = function(event) {
+    diagnostic.textContent = 'Error occurred in recognition: ' + event.error;
+  }
