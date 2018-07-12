@@ -1,0 +1,26 @@
+{
+  "name": "voicetest",
+  "version": "1.0.0",
+  "description": "voice test for Web Speech API",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaybojaybojaybo/VoiceTest.git"
+  },
+  "keywords": [
+    "voice"
+  ],
+  "author": "jaybojaybojaybo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaybojaybojaybo/VoiceTest/issues"
+  },
+  "homepage": "https://github.com/jaybojaybojaybo/VoiceTest#readme",
+  "dependencies": {
+    "server": "^1.0.18"
+  }
+}
